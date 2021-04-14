@@ -1,4 +1,4 @@
-# Converter to convert Microsoft Access Database-files to csv files
+# Convert Microsoft Access Database-files to csv files
 
 ## Usage
 
