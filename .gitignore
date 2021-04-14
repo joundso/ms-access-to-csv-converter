@@ -1,0 +1,22 @@
+/*
+/*/
+
+!/.gitignore
+# !/.gitlab-ci.yml
+!/README.md
+# !/.env
+!/docker-compose.yml
+
+!/build/
+/build/*
+!/build/java.dockerfile
+!/build/loader.dockerfile
+
+!/in/
+/in/*
+!/in/README.md
+# !/in/demo.xml
+
+!/out/
+/out/*
+!/out/README.md
