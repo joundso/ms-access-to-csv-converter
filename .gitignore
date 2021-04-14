@@ -6,6 +6,7 @@
 !/README.md
 # !/.env
 !/docker-compose.yml
+!/renovate.json
 
 !/build/
 /build/*

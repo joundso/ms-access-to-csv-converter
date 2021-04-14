@@ -9,4 +9,4 @@
 ## Background information
 
 The tool used to convert the database is copied from here: <https://www.rebasedata.com/convert-accdb-to-csv-online>.
-For furhter information see this file.
+For further information see this page.
