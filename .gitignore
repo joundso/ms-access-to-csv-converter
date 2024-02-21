@@ -6,12 +6,8 @@
 !/README.md
 # !/.env
 !/docker-compose.yml
+!/Dockerfile
 !/renovate.json
-
-!/build/
-/build/*
-!/build/java.dockerfile
-!/build/loader.dockerfile
 
 !/in/
 /in/*
