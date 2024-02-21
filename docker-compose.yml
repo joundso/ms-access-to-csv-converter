@@ -1,20 +1,9 @@
 version: "3.9" # optional since v1.27.0
 services:
-  loader:
-    build:
-      context: ./build
-      dockerfile: loader.dockerfile
-    command: >
-      sh -c "curl -o /data/converter.jar https://repo1.maven.org/maven2/com/rebasedata/client/0.0.5/client-0.0.5.jar"
-    volumes:
-      - ./build:/data
-
   access_converter:
     build:
-      context: ./build
-      dockerfile: java.dockerfile
-    depends_on:
-      - loader
+      context: .
+      dockerfile: Dockerfile
     volumes:
       - ./in/db.accdb:/data/in/db.accdb
       - ./out:/data/out
