@@ -1,5 +1,5 @@
 ## Stage 1: Get the converter.jar
-FROM alpine:3.21.2 as loader
+FROM alpine:3.21.3 as loader
 RUN apk --no-cache add --update ca-certificates openssl curl && update-ca-certificates
 
 RUN curl -o /opt/converter.jar https://repo1.maven.org/maven2/com/rebasedata/client/0.0.5/client-0.0.5.jar
